@@ -4,6 +4,7 @@ var k;
 const xhr = new XMLHttpRequest();
 xhr.withCredentials =false;
 function passvalue(){
+	
 	state=document.getElementById("input-text").value;
 	console.log(state);
 	xhr.addEventListener("readystatechange", function () {
@@ -19,11 +20,12 @@ function passvalue(){
 			document.getElementById("conf").innerHTML=obj.statewise[k].confirmed;
 			document.getElementById("rec").innerHTML=obj.statewise[k].recovered;
 			document.getElementById("death").innerHTML=obj.statewise[k].deaths;
-
 		}
 	});
 	
 	xhr.open("GET", "https://api.covid19india.org/data.json");
 	xhr.send(data);
 }
+
+
 
