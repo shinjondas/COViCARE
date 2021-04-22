@@ -10,16 +10,23 @@ function passvalue(){
 	xhr.addEventListener("readystatechange", function () {
 		if (this.readyState === this.DONE) {
 			var obj=JSON.parse(this.responseText);
-			console.log(obj.statewise);
-			
-			for(i in obj.statewise){
-				if(obj.statewise[i].state==state){
-					k=i;
+			//console.log(obj.statewise);
+			if(state!=""){
+				for(i in obj.statewise){
+					if(obj.statewise[i].state==state){
+						k=i;
+					}
 				}
+				document.getElementById("conf").innerHTML=obj.statewise[k].confirmed;
+				document.getElementById("rec").innerHTML=obj.statewise[k].recovered;
+				document.getElementById("death").innerHTML=obj.statewise[k].deaths;
 			}
-			document.getElementById("conf").innerHTML=obj.statewise[k].confirmed;
-			document.getElementById("rec").innerHTML=obj.statewise[k].recovered;
-			document.getElementById("death").innerHTML=obj.statewise[k].deaths;
+			else{
+				document.getElementById("conf").innerHTML=obj.statewise[0].confirmed;
+				document.getElementById("rec").innerHTML=obj.statewise[0].recovered;
+				document.getElementById("death").innerHTML=obj.statewise[0].deaths;
+			}
+			
 		}
 	});
 	
