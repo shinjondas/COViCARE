@@ -1,0 +1,284 @@
+[
+    {
+       "srno":"01",
+       "district":"Kolkata",
+       "hospname":"MR Bangur DH & SSH",
+       "total":"713",
+       "vacant":"240"
+    },
+    {
+       "srno":"02",
+       "district":"Kolkata",
+       "hospname":"CNCI",
+       "total":"425",
+       "vacant":"164"
+    },
+    {
+       "srno":"03",
+       "district":"Kolkata",
+       "hospname":"CNMCH",
+       "total":"50",
+       "vacant":"0"
+    },
+    {
+       "srno":"04",
+       "district":"Kolkata",
+       "hospname":"AMRI Salt Lake",
+       "total":"25",
+       "vacant":"25"
+    },
+    {
+       "srno":"05",
+       "district":"Kolkata",
+       "hospname":"Desun Hospital",
+       "total":"25",
+       "vacant":"19"
+    },
+    {
+       "srno":"06",
+       "district":"Kolkata",
+       "hospname":"ID BG",
+       "total":"315",
+       "vacant":"72"
+    },
+    {
+       "srno":"07",
+       "district":"Kolkata",
+       "hospname":"KS Roy TB Hospital",
+       "total":"130",
+       "vacant":"130"
+    },
+    {
+       "srno":"08",
+       "district":"Kolkata",
+       "hospname":"Calcutta Medical College",
+       "total":"300",
+       "vacant":"52"
+    },
+    {
+       "srno":"09",
+       "district":"Kolkata",
+       "hospname":"NRS Medical College & Hospital",
+       "total":"110",
+       "vacant":"5"
+    },
+    {
+       "srno":"10",
+       "district":"Kolkata",
+       "hospname":"Kolkata RG Kar MCH",
+       "total":"60",
+       "vacant":"14"
+    },
+    {
+       "srno":"11",
+       "district":"Kolkata",
+       "hospname":"KPC Medical College",
+       "total":"200",
+       "vacant":"200"
+    },
+    {
+       "srno":"12",
+       "district":"Alipurduar",
+       "hospname":"Integrated Ayush Hospital Tapsikhata",
+       "total":"110",
+       "vacant":"110"
+    },
+    {
+       "srno":"13",
+       "district":"Alipurduar",
+       "hospname":"Alipurduar DH",
+       "total":"15",
+       "vacant":"15"
+    },
+    {
+        "srno":"14",
+        "district":"Bankura",
+        "hospname":"Onda SSH",
+        "total":"250",
+        "vacant":"100"
+     },
+    {
+        "srno":"15",
+        "district":"Birbhum",
+        "hospname":"Birbhum Glocal Hospital",
+        "total":"90",
+        "vacant":"11"
+    },
+    {
+        "srno":"16",
+        "district":"Birbhum",
+        "hospname":"Niramoy TB Sanitorium",
+        "total":"100",
+        "vacant":"100"
+    },
+    {
+        "srno":"17",
+        "district":"Birbhum",
+        "hospname":"RampurHat Govt Medical College",
+        "total":"44",
+        "vacant":"0"
+    },
+    {
+        "srno":"18",
+        "district":"Birbhum",
+        "hospname":"RMYF Royal Nursing Home & Diagnostic",
+        "total":"44",
+        "vacant":"44"
+    },
+    {
+        "srno":"19",
+        "district":"Coochbehar",
+        "hospname":"Cooch Behar Mission Hospital",
+        "total":"10",
+        "vacant":"10"
+    },
+    {
+        "srno":"20",
+        "district":"Coochbehar",
+        "hospname":"Dinhata SDH",
+        "total":"32",
+        "vacant":"32"
+    },
+    {
+        "srno":"21",
+        "district":"Coochbehar",
+        "hospname":"Youth Hostel Rajbari Stadium",
+        "total":"80",
+        "vacant":"80"
+    },
+    {
+        "srno":"22",
+        "district":"Dakhsin Dinajpur",
+        "hospname":"Natya Utkarsha Kendra",
+        "total":"80",
+        "vacant":"59"
+    },
+    {
+        "srno":"23",
+        "district":"Darjeeling",
+        "hospname":"NBMCH",
+        "total":"110",
+        "vacant":"55"
+    },
+    {
+        "srno":"24",
+        "district":"Hooghly",
+        "hospname":"ESI Hospital, Bandel",
+        "total":"250",
+        "vacant":"68"
+    },
+    {
+        "srno":"25",
+        "district":"Hooghly",
+        "hospname":"Chandannagar SDH COVID Isolation Unit",
+        "total":"30",
+        "vacant":"21"
+    },
+    {
+        "srno":"26",
+        "district":"Hooghly",
+        "hospname":"Singur Trauma Care Centre",
+        "total":"100",
+        "vacant":"47"
+    },
+    {
+        "srno":"27",
+        "district":"Howrah",
+        "hospname":"ILS, Golabari",
+        "total":"30",
+        "vacant":"30"
+    },
+    {
+        "srno":"28",
+        "district":"Howrah",
+        "hospname":"Satyabala IDH",
+        "total":"25",
+        "vacant":"0"
+    },
+    {
+        "srno":"29",
+        "district":"Howrah",
+        "hospname":"ESI Hospital, Baltikuri",
+        "total":"400",
+        "vacant":"257"
+    },
+    {
+        "srno":"30",
+        "district":"Howrah",
+        "hospname":"TLJ Hospital",
+        "total":"250",
+        "vacant":"112"
+    },
+    {
+        "srno":"31",
+        "district":"Jalpaiguri",
+        "hospname":"BiswaBangla Krirangan(Sports Complex)",
+        "total":"300",
+        "vacant":"193"
+    },
+    {
+        "srno":"32",
+        "district":"Jhargram",
+        "hospname":"Jhargram Night Shelter",
+        "total":"75",
+        "vacant":"75"
+    },
+    {
+        "srno":"33",
+        "district":"Jhargram",
+        "hospname":"Jhargram Working Women Hostel",
+        "total":"75",
+        "vacant":"75"
+    },
+    {
+        "srno":"34",
+        "district":"Kalimpong",
+        "hospname":"Triveni Hospital",
+        "total":"150",
+        "vacant":"120"
+    },
+    {
+        "srno":"35",
+        "district":"Malda",
+        "hospname":"Trauma Care Centre",
+        "total":"150",
+        "vacant":"22"
+    },
+    {
+        "srno":"36",
+        "district":"Murshidabad",
+        "hospname":"Old Matri Sadan Hospital",
+        "total":"300",
+        "vacant":"177"
+    },
+    {
+        "srno":"37",
+        "district":"Murshidabad",
+        "hospname":"Khristio Seba Sadan",
+        "total":"100",
+        "vacant":"51"
+    },
+    {
+        "srno":"38",
+        "district":"Nadia",
+        "hospname":"Glocal Hospital",
+        "total":"10",
+        "vacant":"10"
+    },
+    {
+        "srno":"39",
+        "district":"Nadia",
+        "hospname":"Netaji Subhas Sanitorium, Kalyani",
+        "total":"300",
+        "vacant":"110"
+    },
+    {
+        "srno":"40",
+        "district":"North 24 Parganas",
+        "hospname":"Al Amin Gopalpur Nursing Home",
+        "total":"10",
+        "vacant":"10"
+    }
+    
+
+]
