@@ -278,7 +278,180 @@
         "hospname":"Al Amin Gopalpur Nursing Home",
         "total":"10",
         "vacant":"10"
+    },
+    {
+        "srno":"41",
+        "district":"North 24 Parganas",
+        "hospname":"Ashoknagar SGH",
+        "total":"60",
+        "vacant":"0"
+    },
+    {
+        "srno":"42",
+        "district":"North 24 Parganas",
+        "hospname":"GNRC",
+        "total":"33",
+        "vacant":"25"
+    },
+    {
+        "srno":"43",
+        "district":"North 24 Parganas",
+        "hospname":"Gobardanga RH Covid Hospital",
+        "total":"50",
+        "vacant":"27"
+    },
+    {
+        "srno":"44",
+        "district":"North 24 Parganas",
+        "hospname":"Nehru Memorial Techno Global",
+        "total":"50",
+        "vacant":"0"
+    },
+    {
+        "srno":"45",
+        "district":"North 24 Parganas",
+        "hospname":"Naihati SGH",
+        "total":"90",
+        "vacant":"0"
+    },
+    {
+        "srno":"46",
+        "district":"North 24 Parganas",
+        "hospname":"COM & Sagar Datta Hospital",
+        "total":"500",
+        "vacant":"391"
+    },
+    {
+        "srno":"47",
+        "district":"North 24 Parganas",
+        "hospname":"Sree Balaram Seva Mandir",
+        "total":"80",
+        "vacant":"2"
+    },
+    {
+        "srno":"48",
+        "district":"Paschim Bardhaman",
+        "hospname":"Sanaka Hospital",
+        "total":"200",
+        "vacant":"89"
+    },
+    {
+        "srno":"49",
+        "district":"Paschim Medinipur",
+        "hospname":"Midnapore Medical College Hospital",
+        "total":"30",
+        "vacant":"11"
+    },
+    {
+        "srno":"50",
+        "district":"Paschim Medinipur",
+        "hospname":"Ayush Corona Hospital",
+        "total":"100",
+        "vacant":"100"
+    },
+    {
+        "srno":"51",
+        "district":"Paschim Medinipur",
+        "hospname":"Ayush Satellite Hospital",
+        "total":"100",
+        "vacant":"100"
+    },
+    {
+        "srno":"52",
+        "district":"Paschim Medinipur",
+        "hospname":"Debra RH Covid Hospital",
+        "total":"40",
+        "vacant":"40"
+    },
+    {
+        "srno":"53",
+        "district":"Paschim Medinipur",
+        "hospname":"Salboni SSH",
+        "total":"200",
+        "vacant":"158"
+    },
+    {
+        "srno":"54",
+        "district":"Paschim Medinipur",
+        "hospname":"Kharagpur SDH",
+        "total":"50",
+        "vacant":"45"
+    },
+    {
+        "srno":"55",
+        "district":"Paschim Medinipur",
+        "hospname":"Ghatal SDH Covid Hospital",
+        "total":"80",
+        "vacant":"61"
+    },
+    {
+        "srno":"56",
+        "district":"Purba Burdwan",
+        "hospname":"Bardhaman Medical College & Hospital",
+        "total":"120",
+        "vacant":"120"
+    },
+    {
+        "srno":"57",
+        "district":"Purba Burdwan",
+        "hospname":"Krishi Bhavan COVID Hospital",
+        "total":"100",
+        "vacant":"33"
+    },
+    {
+        "srno":"58",
+        "district":"Purba Medinipur",
+        "hospname":"Chandipur Multi Speicality Hospital",
+        "total":"10",
+        "vacant":"0"
+    },
+    {
+        "srno":"59",
+        "district":"Purba Medinipur",
+        "hospname":"Baroma Mutli Speciality Hospital",
+        "total":"10",
+        "vacant":"10"
+    },
+    {
+        "srno":"60",
+        "district":"Purulia",
+        "hospname":"Hatuara SSH",
+        "total":"93",
+        "vacant":"8"
+    },
+    {
+        "srno":"61",
+        "district":"South 24 Parganas",
+        "hospname":"Diamond Harbour GMCH",
+        "total":"80",
+        "vacant":"13"
+    },
+    {
+        "srno":"62",
+        "district":"South 24 Parganas",
+        "hospname":"Canning Covid Hospital (Stadium)",
+        "total":"55",
+        "vacant":"55"
+    },
+    {
+        "srno":"63",
+        "district":"Uttar Dinajpur",
+        "hospname":"Islampur Urdu Academy",
+        "total":"100",
+        "vacant":"100"
+    },
+    {
+        "srno":"64",
+        "district":"Uttar Dinajpur",
+        "hospname":"Raiganj Govt MCH",
+        "total":"15",
+        "vacant":"0"
+    },
+    {
+        "srno":"65",
+        "district":"Uttar Dinajpur",
+        "hospname":"Mikki Megha Hospital",
+        "total":"50",
+        "vacant":"50"
     }
-    
-
 ]
