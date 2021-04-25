@@ -15,25 +15,22 @@
 <body class="bg-dark">
       <div class="jumbotron jumbotron-fluid bg-dark">
         <div class="container">
-          <h1 class="display-4 text-white">Remdevisir Info Page</h1>
-          <h5 class="text-muted">Please provide genuine information</h5><br>
-          <p class="lead">
-            <form action="php/action.php" method="POST">
-              <div class="form-group">
-                <div class="input-group">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text" id="">Name & Contact Info</span>
-                  </div>
-                  <input type="text" class="form-control" id="name" name="name">
-                  <input type="text" class="form-control" id="contact" name="contact"><br>
-                </div><br><br>
-                <input type="text" class="form-control" id="updateinfo" name="updateinfo" placeholder=" Add Information"><br>
-                <div class="text-center">
-                    <button type="submit" class="btn btn-outline-danger">Add</button>
-                </div>
-              </div>
-            </form>
-          </p>
+          <h1 class="display-4 text-white">Remdesivir Info Page</h1>
+          <h5 class="text-muted">All information provided by users</h5><br>
+              <?php
+              $conn=mysqli_connect("localhost","root","","remdes");
+              $query="select * from postinfo ORDER BY posttime DESC";
+              $print=mysqli_query($conn,$query);
+              while($row = mysqli_fetch_array($print)) {
+                echo "<p class='lead'><div class='bg-secondary text-white jumbotron fluid-jumbotron'><br> ".
+                   "<div class='text-dark'><h5>{$row['name']}</h5><h6><u>{$row['contactinfo']}</u></h6></div>".
+                   "<h4>{$row['updateinfo']}</h4> ".
+                   "TIME : {$row['posttime']}</div> <br> ".
+                   "<hr class='my-4 text-white'></p>";
+             }
+              ?>
+          <div class="text-center">
+          <a href="../rem.html"><button class="btn btn-outline-primary">Have Info? Share with us</button></a></div>
         </div>
       </div>
 </body>

@@ -37,14 +37,14 @@
             </li>
             
             <li class="nav-item">
-              <a class="nav-link" href="get-ready-master/index.html">Remdevisir</a>
+              <a class="nav-link" href="php/allinfo.php">Remdesivir</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Hospitals
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="hospital.html">Bed Availability</a>
+                <a class="dropdown-item" href="hospital.php">Bed Availability</a>
                 <a class="dropdown-item" href="comingsoon.html">Nearest Hospitals</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="comingsoon.html">Report Problem</a>
@@ -85,8 +85,8 @@
             </div>
             <div class="carousel-caption">
               <h3 class="h3-responsive">Bed Availability</h3>
-              <p>Check the bed availability near your location</p>
-              <a href="hospital.html"><button" class="btn btn-danger">Check Now</button></a>
+              <p>Check the bed availability near your location<span class="text-muted">(For West Bengal)*</span></p>
+              <a href="hospital.php"><button" class="btn btn-danger">Check Now</button></a>
             </div>
           </div>
           <div class="carousel-item">
@@ -96,9 +96,9 @@
               <div class="mask rgba-black-slight"></div>
             </div>
             <div class="carousel-caption">
-              <h3 class="h3-responsive">Remdevisir Near You</h3>
+              <h3 class="h3-responsive">Remdesivir Near You</h3>
               <p>Where and how to get access to it?</p>
-              <button type="button" class="btn btn-danger">Check Now</button>
+              <a href="php/allinfo.php"><button" class="btn btn-danger">Check Now</button></a>
             </div>
           </div>
         </div>
@@ -156,6 +156,9 @@
           </div>
         </div>
       </section>
+      <div class="text-center">
+        <a href="Measures.pdf"><button class="btn btn-outline-primary">How To Prevent Spread&nbsp;&nbsp;<i class="fas fa-angle-right"></i></button><br><br></a>
+      </div>
       
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

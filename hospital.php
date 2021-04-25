@@ -18,9 +18,9 @@
     <div class="jumbotron jumbotron-fluid bg-dark">
         <div class="container">
           <h1 class="display-4 text-white">COVID Bed Availability</h1><h5 class="text-muted">West Bengal</h5><br>
-          <form action="action2.php" method="POST">
+          <form action=<?php echo $_SERVER["PHP_SELF"];?> method="POST">
             <div class="form-group">
-              <select class="form-control" id="input-text">
+              <select class="form-control" id="input-text" name="input-text">
                 <option value="">--Select Location--</option>
                 <option value="Kolkata">Kolkata</option>
                 <option value="Alipurduar">Alipurduar</option>
@@ -49,7 +49,7 @@
             </div>
               <br>
               <div class="text-center">
-                <button type="button" class="btn btn-outline-danger">Submit</button>
+                <button type="submit" class="btn btn-outline-danger" name="submit">Submit</button>
               </div>
           </form>
           <p class="lead">
@@ -61,6 +61,22 @@
                     <th scope="col">Hospital Name</th>
                     <th scope="col">Total Beds</th>
                     <th scope="col">Vacant Beds</th>
+                    <?php
+                    $district="";
+                    if(isset($_POST['submit'])){
+                      $conn=mysqli_connect("localhost","root","","hospdb");
+                        date_default_timezone_set("Asia/Kolkata");
+                        $district=$_POST['input-text'];
+                        //echo $district;
+                        $str="SELECT * FROM MYTABLE WHERE DISTRICT='$district'";
+                        $query=mysqli_query($conn,$str);
+                        while($row = mysqli_fetch_array($query)) {
+                          echo "<tr><td>".$row['district']."</td><td>".$row['hospname']."</td><td>".$row['total']."</td><td>".$row['vacant']."</td></tr>";
+                       }
+                        
+                    }
+                        
+                    ?>
                 </tr>
                 </thead>
                 <tbody id="data">
