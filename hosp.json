@@ -4,14 +4,14 @@
        "district":"Kolkata",
        "hospname":"MR Bangur DH & SSH",
        "total":"713",
-       "vacant":"240"
+       "vacant":"248"
     },
     {
        "srno":"02",
        "district":"Kolkata",
        "hospname":"CNCI",
        "total":"425",
-       "vacant":"164"
+       "vacant":"124"
     },
     {
        "srno":"03",
@@ -32,42 +32,42 @@
        "district":"Kolkata",
        "hospname":"Desun Hospital",
        "total":"25",
-       "vacant":"19"
+       "vacant":"18"
     },
     {
        "srno":"06",
        "district":"Kolkata",
        "hospname":"ID BG",
        "total":"315",
-       "vacant":"72"
+       "vacant":"37"
     },
     {
        "srno":"07",
        "district":"Kolkata",
        "hospname":"KS Roy TB Hospital",
        "total":"130",
-       "vacant":"130"
+       "vacant":"44"
     },
     {
        "srno":"08",
        "district":"Kolkata",
        "hospname":"Calcutta Medical College",
        "total":"300",
-       "vacant":"52"
+       "vacant":"58"
     },
     {
        "srno":"09",
        "district":"Kolkata",
        "hospname":"NRS Medical College & Hospital",
        "total":"110",
-       "vacant":"5"
+       "vacant":"0"
     },
     {
        "srno":"10",
        "district":"Kolkata",
        "hospname":"Kolkata RG Kar MCH",
        "total":"60",
-       "vacant":"14"
+       "vacant":"60"
     },
     {
        "srno":"11",
@@ -95,14 +95,14 @@
         "district":"Bankura",
         "hospname":"Onda SSH",
         "total":"250",
-        "vacant":"100"
+        "vacant":"56"
      },
     {
         "srno":"15",
         "district":"Birbhum",
         "hospname":"Birbhum Glocal Hospital",
         "total":"90",
-        "vacant":"11"
+        "vacant":"17"
     },
     {
         "srno":"16",
@@ -137,7 +137,7 @@
         "district":"Coochbehar",
         "hospname":"Dinhata SDH",
         "total":"32",
-        "vacant":"32"
+        "vacant":"16"
     },
     {
         "srno":"21",
@@ -151,35 +151,35 @@
         "district":"Dakhsin Dinajpur",
         "hospname":"Natya Utkarsha Kendra",
         "total":"80",
-        "vacant":"59"
+        "vacant":"80"
     },
     {
         "srno":"23",
         "district":"Darjeeling",
         "hospname":"NBMCH",
         "total":"110",
-        "vacant":"55"
+        "vacant":"50"
     },
     {
         "srno":"24",
         "district":"Hooghly",
         "hospname":"ESI Hospital, Bandel",
         "total":"250",
-        "vacant":"68"
+        "vacant":"169"
     },
     {
         "srno":"25",
         "district":"Hooghly",
         "hospname":"Chandannagar SDH COVID Isolation Unit",
         "total":"30",
-        "vacant":"21"
+        "vacant":"20"
     },
     {
         "srno":"26",
         "district":"Hooghly",
         "hospname":"Singur Trauma Care Centre",
         "total":"100",
-        "vacant":"47"
+        "vacant":"48"
     },
     {
         "srno":"27",
@@ -200,21 +200,21 @@
         "district":"Howrah",
         "hospname":"ESI Hospital, Baltikuri",
         "total":"400",
-        "vacant":"257"
+        "vacant":"198"
     },
     {
         "srno":"30",
         "district":"Howrah",
         "hospname":"TLJ Hospital",
         "total":"250",
-        "vacant":"112"
+        "vacant":"109"
     },
     {
         "srno":"31",
         "district":"Jalpaiguri",
         "hospname":"BiswaBangla Krirangan(Sports Complex)",
         "total":"300",
-        "vacant":"193"
+        "vacant":"120"
     },
     {
         "srno":"32",
@@ -235,28 +235,28 @@
         "district":"Kalimpong",
         "hospname":"Triveni Hospital",
         "total":"150",
-        "vacant":"120"
+        "vacant":"107"
     },
     {
         "srno":"35",
         "district":"Malda",
         "hospname":"Trauma Care Centre",
         "total":"150",
-        "vacant":"22"
+        "vacant":"40"
     },
     {
         "srno":"36",
         "district":"Murshidabad",
         "hospname":"Old Matri Sadan Hospital",
         "total":"300",
-        "vacant":"177"
+        "vacant":"163"
     },
     {
         "srno":"37",
         "district":"Murshidabad",
         "hospname":"Khristio Seba Sadan",
         "total":"100",
-        "vacant":"51"
+        "vacant":"37"
     },
     {
         "srno":"38",
@@ -270,7 +270,7 @@
         "district":"Nadia",
         "hospname":"Netaji Subhas Sanitorium, Kalyani",
         "total":"300",
-        "vacant":"110"
+        "vacant":"99"
     },
     {
         "srno":"40",
@@ -284,14 +284,14 @@
         "district":"North 24 Parganas",
         "hospname":"Ashoknagar SGH",
         "total":"60",
-        "vacant":"0"
+        "vacant":"3"
     },
     {
         "srno":"42",
         "district":"North 24 Parganas",
         "hospname":"GNRC",
         "total":"33",
-        "vacant":"25"
+        "vacant":"22"
     },
     {
         "srno":"43",
@@ -312,35 +312,35 @@
         "district":"North 24 Parganas",
         "hospname":"Naihati SGH",
         "total":"90",
-        "vacant":"0"
+        "vacant":"2"
     },
     {
         "srno":"46",
         "district":"North 24 Parganas",
         "hospname":"COM & Sagar Datta Hospital",
         "total":"500",
-        "vacant":"391"
+        "vacant":"322"
     },
     {
         "srno":"47",
         "district":"North 24 Parganas",
         "hospname":"Sree Balaram Seva Mandir",
         "total":"80",
-        "vacant":"2"
+        "vacant":"17"
     },
     {
         "srno":"48",
         "district":"Paschim Bardhaman",
         "hospname":"Sanaka Hospital",
         "total":"200",
-        "vacant":"89"
+        "vacant":"67"
     },
     {
         "srno":"49",
         "district":"Paschim Medinipur",
         "hospname":"Midnapore Medical College Hospital",
         "total":"30",
-        "vacant":"11"
+        "vacant":"10"
     },
     {
         "srno":"50",
@@ -368,21 +368,21 @@
         "district":"Paschim Medinipur",
         "hospname":"Salboni SSH",
         "total":"200",
-        "vacant":"158"
+        "vacant":"149"
     },
     {
         "srno":"54",
         "district":"Paschim Medinipur",
         "hospname":"Kharagpur SDH",
         "total":"50",
-        "vacant":"45"
+        "vacant":"35"
     },
     {
         "srno":"55",
         "district":"Paschim Medinipur",
         "hospname":"Ghatal SDH Covid Hospital",
         "total":"80",
-        "vacant":"61"
+        "vacant":"54"
     },
     {
         "srno":"56",
@@ -396,7 +396,7 @@
         "district":"Purba Burdwan",
         "hospname":"Krishi Bhavan COVID Hospital",
         "total":"100",
-        "vacant":"33"
+        "vacant":"35"
     },
     {
         "srno":"58",
@@ -417,7 +417,7 @@
         "district":"Purulia",
         "hospname":"Hatuara SSH",
         "total":"93",
-        "vacant":"8"
+        "vacant":"7"
     },
     {
         "srno":"61",
@@ -431,14 +431,14 @@
         "district":"South 24 Parganas",
         "hospname":"Canning Covid Hospital (Stadium)",
         "total":"55",
-        "vacant":"55"
+        "vacant":"20"
     },
     {
         "srno":"63",
         "district":"Uttar Dinajpur",
         "hospname":"Islampur Urdu Academy",
         "total":"100",
-        "vacant":"100"
+        "vacant":"81"
     },
     {
         "srno":"64",
