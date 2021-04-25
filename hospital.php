@@ -53,18 +53,21 @@
               </div>
           </form>
           <p class="lead">
-            <small class="text-muted">Last updated 21-04-2021</small>
-            <table class="table table-striped table-dark">
-                <thead>
-                  <tr>
-                    <th scope="col">District</th>
-                    <th scope="col">Hospital Name</th>
-                    <th scope="col">Total Beds</th>
-                    <th scope="col">Vacant Beds</th>
+            <small class="text-muted">Last updated 25-04-2021</small>
+            
                     <?php
                     $district="";
                     if(isset($_POST['submit'])){
-                      $conn=mysqli_connect("localhost","root","","hospdb");
+                      echo "<table class='table table-striped table-dark'>
+                      <thead>
+                        <tr>
+                          <th scope='col'>District</th>
+                          <th scope='col'>Hospital Name</th>
+                          <th scope='col'>Total Beds</th>
+                          <th scope='col'>Vacant Beds</th></tr></thead><tbody>
+                  
+                          </tbody>";
+                        $conn=mysqli_connect("localhost","root","","hospdb");
                         date_default_timezone_set("Asia/Kolkata");
                         $district=$_POST['input-text'];
                         //echo $district;
@@ -77,11 +80,8 @@
                     }
                         
                     ?>
-                </tr>
-                </thead>
-                <tbody id="data">
-                  
-                </tbody>
+                
+                
               </table>
           </p>
         </div>
