@@ -14,6 +14,13 @@
 
 
 </head>
+<style>
+  @media screen and (max-width:500px) {
+    .carousel-inner img{
+      display: none;
+    }
+  }
+</style>
 <body class="bg-dark">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">COV<span style="color:#da4646">i</span>CARE</a>
@@ -66,10 +73,10 @@
           <li data-target="#carousel-example-2" data-slide-to="3"></li>
         </ol>
         <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active">
+          <div class="carousel-item active" style="background-image: url(img/img1.jpg);backdrop-filter: blur(20px);height: 95vh;background-position: center;background-size: cover;">
             <div class="view">
-              <img class="d-block w-100" src="img/img1.jpg" style="filter: blur(5px);"
-                alt="First slide">
+              <!--<img class="d-block w-100" src="img/img1.jpg" style="filter: blur(5px);"
+                alt="First slide">-->
                 <div class="mask rgba-black"></div>
             </div>
             <div class="carousel-caption">
@@ -78,10 +85,10 @@
              <a href="http://findplasma.epizy.com"> <button type="button" class="btn btn-danger">Check Now</button></a>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" style="background-image: url(img/img1.jpg);backdrop-filter: blur(20px);height: 95vh;background-position: center;background-size: cover;">
             <div class="view">
-              <img class="d-block w-100" src="img/img1.jpg" style="filter: blur(5px);"
-                alt="First slide">
+              <!--<img class="d-block w-100" src="img/img1.jpg" style="filter: blur(5px);"
+                alt="First slide">-->
                 <div class="mask rgba-black"></div>
             </div>
             <div class="carousel-caption">
@@ -90,10 +97,10 @@
              <a href="http://findplasma.epizy.com"> <button type="button" class="btn btn-danger">Volunteer Now</button></a>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" style="background-image: url(img/img4.jpg);backdrop-filter: blur(20px);height: 94.5vh;background-position: center;background-size: cover;">
             <div class="view">
-              <img class="d-block w-100" src="img/img4.jpg" style="filter: blur(10px);"
-                alt="Second slide">
+              <!--<img class="d-block w-100" src="img/img4.jpg" style="filter: blur(10px);"
+                alt="Second slide">-->
               <div class="mask rgba-black-strong"></div>
             </div>
             <div class="carousel-caption">
@@ -102,10 +109,10 @@
               <a href="hospital.php"><button" class="btn btn-danger">Check Now</button></a>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" style="background-image: url(img/img3.jpeg);backdrop-filter: blur(20px);height: 94.5vh;background-position: center;background-size: cover;">
             <div class="view">
-              <img class="d-block w-100" src="img/img3.jpeg" style="filter: blur(5px);"
-                alt="Third slide">
+              <!--<img class="d-block w-100" src="img/img3.jpeg" style="filter: blur(5px);"
+                alt="Third slide">-->
               <div class="mask rgba-black-slight"></div>
             </div>
             <div class="carousel-caption">
@@ -139,7 +146,7 @@
             <br>
             <div class="row text-center">
               <div class="col-md-4">
-                  <div class="card bg-dark border border-warning text-white" id="Confirmed">
+                  <div class="card bg-dark border border-warning text-white" id="Confirmed" style="margin-bottom: 10px;">
                       <i class="fa fa-exclamation"></i>
                       <div class="card-body">
                           <h3>Confirmed</h3>
@@ -148,7 +155,7 @@
                   </div>
               </div>
               <div class="col-md-4">
-                  <div class="card border border-success bg-dark text-white" id="Recovered">
+                  <div class="card border border-success bg-dark text-white" id="Recovered" style="margin-bottom: 10px;">
                       <i class="fas fa-plus-square"></i>
                       <div class="card-body">
                           <h3>Recovered</h3> 
