@@ -17,6 +17,10 @@
         <div class="container">
           <h1 class="display-4 text-white">Remdesivir Info Page</h1>
           <h5 class="text-muted">All information provided by users</h5><br>
+          <div class="text-center">
+          <a href="../rem.html"><button class="btn btn-outline-primary">Have Info? Share with us</button></a></div>
+        </div>
+
               <?php
               $conn=mysqli_connect("localhost","root","","remdes");
               $query="select * from postinfo ORDER BY posttime DESC";
@@ -29,9 +33,6 @@
                    "<hr class='my-4 text-white'></p>";
              }
               ?>
-          <div class="text-center">
-          <a href="../rem.html"><button class="btn btn-outline-primary">Have Info? Share with us</button></a></div>
-        </div>
       </div>
 </body>
 </html>
