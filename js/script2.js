@@ -906,9 +906,20 @@ var arr={
          console.log(arr.states[i].districts);
      }
  }*/
-
+ var obj;
+ const data = null;
+ const xhr = new XMLHttpRequest();
+ xhr.withCredentials =false;
+ xhr.addEventListener("readystatechange", function () {
+     if (this.readyState === this.DONE) {
+         obj=JSON.parse(this.responseText);
+         console.log(obj);
+     }
+ });
+ xhr.open("GET", "https://api.rootnet.in/covid19-in/hospitals/medical-colleges");
+ xhr.send(data);
  function makeSubmenu(value){
-     if(value=="null"){
+     /*if(value=="null"){
         document.getElementById("district").innerHTML = "<option>---SELECT DISTRICT---</option>";
      }
      else{
@@ -916,7 +927,7 @@ var arr={
          var k=0;
          for(i=0;i<arr.states.length;i++){
              if(value==arr.states[i].state){
-                 console.log(arr.states[i].districts)
+                 //console.log(arr.states[i].districts)
                  while(k<arr.states[i].districts.length){
                      //console.log(arr.states[i].districts[k]);
                      districtOptions+="<option>"+arr.states[i].districts[k++]+"</option>";
@@ -924,16 +935,64 @@ var arr={
              }
          }
          document.getElementById("district").innerHTML = districtOptions;
+     }*/
+     if(value=="null"){
+         document.getElementById("city").innerHTML="<option>---SELECT CITY---</option>";
      }
+     else{
+         var cityOptions="";
+         var k=0;
+         var arr=obj.data.medicalColleges;
+         for(i=0;i<arr.length;i++){
+             if(value==arr[i].state){
+                 cityOptions+="<option>"+arr[i].city+"</option>";
+                 i++;
+             }
+         }
+         if(value="Uttar Pradesh"){
+            cityOptions+="<option>Kanpur</option>";
+         }
+     }
+     
+     
+     document.getElementById("city").innerHTML=cityOptions;
+
  }
- const data = null;
-const xhr = new XMLHttpRequest();
-xhr.withCredentials =false;
-xhr.addEventListener("readystatechange", function () {
-    if (this.readyState === this.DONE) {
-        var obj=JSON.parse(this.responseText);
-        console.log(obj);
-    }
-});
-xhr.open("GET", "https://api.rootnet.in/covid19-in/hospitals/medical-colleges");
-xhr.send(data);
+ var str="";
+function getHosp(){
+    str="";
+    state=document.getElementById('state').value;
+    district=document.getElementById('city').value;
+    console.log(district);
+    const data = null;
+    const xhr = new XMLHttpRequest();
+    xhr.withCredentials =false;
+    xhr.addEventListener("readystatechange", function () {
+        if (this.readyState === this.DONE) {
+            var obj=JSON.parse(this.responseText);
+            var a=obj.data.medicalColleges;
+            var i=0;
+            while(i<a.length){
+                if(state==a[i].state){
+                    //console.log(a[i].state);
+                    if(district==a[i].city){
+                        str+="<div class='jumbotron jumbotron-fluid' style='border-radius:5px'><div class='container'>"
+                        str+="<h3>"+a[i].name+"</h3>";
+                        str+="<h5>Hospital Ownership:&nbsp;"+a[i].ownership+"</h5>";
+                        str+="<h5>Hospital Beds:&nbsp;"+a[i].hospitalBeds+"</h5>";
+                        str+="</div></div><br>"
+                        i++;    
+                    }
+                    
+                }
+                i++;
+            }
+            document.getElementById("results").innerHTML=str;
+            /*if(i>=(a.length-1)){
+                console.log("NO DATA");
+            }*/
+        }
+    });
+    xhr.open("GET", "https://api.rootnet.in/covid19-in/hospitals/medical-colleges");
+    xhr.send(data);
+}
