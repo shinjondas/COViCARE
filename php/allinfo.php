@@ -19,8 +19,8 @@
   </script>
       <div class="jumbotron jumbotron-fluid bg-dark">
         <div class="container">
-          <h1 class="display-4 text-white">Remdesivir Info Page</h1>
-          <h5 class="text-muted">All information provided by users</h5><br>
+          <h1 class="display-4 text-white">COVID Info Page</h1>
+          <h5 class="text-muted">Please provide genuine requirements</h5><br>
           <div class="text-center">
           <a href="../rem.html"><button class="btn btn-outline-primary">Have Info? Share with us</button></a></div>
         </div>
