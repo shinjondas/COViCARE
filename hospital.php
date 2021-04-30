@@ -71,7 +71,7 @@
                         date_default_timezone_set("Asia/Kolkata");
                         $district=$_POST['input-text'];
                         //echo $district;
-                        $str="SELECT * FROM MYTABLE WHERE DISTRICT='$district'";
+                        $str="SELECT * FROM MYTABLE WHERE DISTRICT='$district' ORDER BY vacant DESC";
                         $query=mysqli_query($conn,$str);
                         while($row = mysqli_fetch_array($query)) {
                           echo "<tr><td>".$row['district']."</td><td>".$row['hospname']."</td><td>".$row['total']."</td><td>".$row['vacant']."</td></tr>";
