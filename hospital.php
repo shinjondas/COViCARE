@@ -53,7 +53,7 @@
               </div>
           </form>
           <p class="lead">
-            <small class="text-muted">Last updated 28-04-2021</small>
+            <small class="text-muted">Last updated 30-04-2021 15:59</small>
             
                     <?php
                     $district="";
